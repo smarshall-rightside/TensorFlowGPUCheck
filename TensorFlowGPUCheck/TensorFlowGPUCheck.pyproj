@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2bf95cb4-ccdd-4208-af89-da4f5b07c384</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ComputeTest.py</StartupFile>
+    <StartupFile>SimpleNeuralNetworkTrain.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ComputeTest.py" />
+    <Compile Include="SimpleNeuralNetworkTrain.py" />
     <Compile Include="TensorFlowGPUCheck.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
