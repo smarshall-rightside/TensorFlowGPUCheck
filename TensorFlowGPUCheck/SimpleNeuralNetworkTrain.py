@@ -66,3 +66,4 @@ with torch.no_grad():  # Disable gradient tracking
         correct += (predicted == labels).sum().item()
 
 print(f'Accuracy of the model on the test images: {100 * correct / total:.2f}%')
+//
